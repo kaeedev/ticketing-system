@@ -1,0 +1,10 @@
+POST http://localhost:4001/api/tickets HTTP/1.1
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2YjZkYTc5Zi1iMTE1LTQ5YjEtYmM4NC05ZWRmMTkxYzFlZDIiLCJyb2xlIjoidXNlciIsImlhdCI6MTczNDE5MjI3NCwiZXhwIjoxNzM0MTk1ODc0fQ.uMF_b_Brl5YCNP9aszD0ZT8qn3pTzmXeiKZ3qXF17yo
+
+{
+        "user": "4702e387-1e3b-4f4d-af86-a00eed08c52c",
+        "title": "Ticket #17",
+        "description": "This is a ticket #17 description",
+        "priority": "low"
+}

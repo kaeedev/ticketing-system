@@ -1,0 +1,58 @@
+{
+  metadata: TypeError: Cannot read properties of undefined (reading 'replace')
+      at auth (file:///C:/Users/lalbe/OneDrive/Escritorio/Apuntes%20Master%20ConquerX/Modulo%2015.%20NodeJS/ticketing-system/middlewares/auth.js:4:45)
+      at Layer.handle [as handle_request] (C:\Users\lalbe\OneDrive\Escritorio\Apuntes Master ConquerX\Modulo 15. NodeJS\ticketing-system\node_modules\express\lib\router\layer.js:95:5)
+      at next (C:\Users\lalbe\OneDrive\Escritorio\Apuntes Master ConquerX\Modulo 15. NodeJS\ticketing-system\node_modules\express\lib\router\route.js:149:13)
+      at Route.dispatch (C:\Users\lalbe\OneDrive\Escritorio\Apuntes Master ConquerX\Modulo 15. NodeJS\ticketing-system\node_modules\express\lib\router\route.js:119:3)
+      at Layer.handle [as handle_request] (C:\Users\lalbe\OneDrive\Escritorio\Apuntes Master ConquerX\Modulo 15. NodeJS\ticketing-system\node_modules\express\lib\router\layer.js:95:5)
+      at C:\Users\lalbe\OneDrive\Escritorio\Apuntes Master ConquerX\Modulo 15. NodeJS\ticketing-system\node_modules\express\lib\router\index.js:284:15
+      at Function.process_params (C:\Users\lalbe\OneDrive\Escritorio\Apuntes Master ConquerX\Modulo 15. NodeJS\ticketing-system\node_modules\express\lib\router\index.js:346:12)
+      at next (C:\Users\lalbe\OneDrive\Escritorio\Apuntes Master ConquerX\Modulo 15. NodeJS\ticketing-system\node_modules\express\lib\router\index.js:280:10)
+      at Function.handle (C:\Users\lalbe\OneDrive\Escritorio\Apuntes Master ConquerX\Modulo 15. NodeJS\ticketing-system\node_modules\express\lib\router\index.js:175:3)
+      at router (C:\Users\lalbe\OneDrive\Escritorio\Apuntes Master ConquerX\Modulo 15. NodeJS\ticketing-system\node_modules\express\lib\router\index.js:47:12),
+  level: 'error',
+  message: "Cannot read properties of undefined (reading 'replace')",
+  timestamp: '2024-12-14T11:47:57.718Z'
+}
+{
+  metadata: TypeError: Cannot read properties of undefined (reading 'replace')
+      at auth (file:///C:/Users/lalbe/OneDrive/Escritorio/Apuntes%20Master%20ConquerX/Modulo%2015.%20NodeJS/ticketing-system/middlewares/auth.js:4:45)
+      at Layer.handle [as handle_request] (C:\Users\lalbe\OneDrive\Escritorio\Apuntes Master ConquerX\Modulo 15. NodeJS\ticketing-system\node_modules\express\lib\router\layer.js:95:5)
+      at next (C:\Users\lalbe\OneDrive\Escritorio\Apuntes Master ConquerX\Modulo 15. NodeJS\ticketing-system\node_modules\express\lib\router\route.js:149:13)
+      at Route.dispatch (C:\Users\lalbe\OneDrive\Escritorio\Apuntes Master ConquerX\Modulo 15. NodeJS\ticketing-system\node_modules\express\lib\router\route.js:119:3)
+      at Layer.handle [as handle_request] (C:\Users\lalbe\OneDrive\Escritorio\Apuntes Master ConquerX\Modulo 15. NodeJS\ticketing-system\node_modules\express\lib\router\layer.js:95:5)
+      at C:\Users\lalbe\OneDrive\Escritorio\Apuntes Master ConquerX\Modulo 15. NodeJS\ticketing-system\node_modules\express\lib\router\index.js:284:15
+      at param (C:\Users\lalbe\OneDrive\Escritorio\Apuntes Master ConquerX\Modulo 15. NodeJS\ticketing-system\node_modules\express\lib\router\index.js:365:14)
+      at param (C:\Users\lalbe\OneDrive\Escritorio\Apuntes Master ConquerX\Modulo 15. NodeJS\ticketing-system\node_modules\express\lib\router\index.js:376:14)
+      at Function.process_params (C:\Users\lalbe\OneDrive\Escritorio\Apuntes Master ConquerX\Modulo 15. NodeJS\ticketing-system\node_modules\express\lib\router\index.js:421:3)
+      at next (C:\Users\lalbe\OneDrive\Escritorio\Apuntes Master ConquerX\Modulo 15. NodeJS\ticketing-system\node_modules\express\lib\router\index.js:280:10),
+  level: 'error',
+  message: "Cannot read properties of undefined (reading 'replace')",
+  timestamp: '2024-12-14T11:54:49.713Z'
+}
+{
+  metadata: SyntaxError: Expected property name or '}' in JSON at position 11
+      at JSON.parse (<anonymous>)
+      at parse (C:\Users\lalbe\OneDrive\Escritorio\Apuntes Master ConquerX\Modulo 15. NodeJS\ticketing-system\node_modules\body-parser\lib\types\json.js:92:19)
+      at C:\Users\lalbe\OneDrive\Escritorio\Apuntes Master ConquerX\Modulo 15. NodeJS\ticketing-system\node_modules\body-parser\lib\read.js:128:18
+      at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+      at invokeCallback (C:\Users\lalbe\OneDrive\Escritorio\Apuntes Master ConquerX\Modulo 15. NodeJS\ticketing-system\node_modules\raw-body\index.js:238:16)
+      at done (C:\Users\lalbe\OneDrive\Escritorio\Apuntes Master ConquerX\Modulo 15. NodeJS\ticketing-system\node_modules\raw-body\index.js:227:7)
+      at IncomingMessage.onEnd (C:\Users\lalbe\OneDrive\Escritorio\Apuntes Master ConquerX\Modulo 15. NodeJS\ticketing-system\node_modules\raw-body\index.js:287:7)
+      at IncomingMessage.emit (node:events:519:28)
+      at endReadableNT (node:internal/streams/readable:1696:12)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+    expose: true,
+    statusCode: 400,
+    status: 400,
+    body: '{\r\n' +
+      '        user: "4702e387-1e3b-4f4d-af86-a00eed08c52c"\r\n' +
+      '        "title": "Ticket #17",\r\n' +
+      '        "description": "This is a ticket #17 description"\r\n' +
+      '}',
+    type: 'entity.parse.failed'
+  },
+  level: 'error',
+  message: "Expected property name or '}' in JSON at position 11",
+  timestamp: '2024-12-14T16:08:07.059Z'
+}

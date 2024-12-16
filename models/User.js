@@ -8,7 +8,7 @@ const userSchema = new mongoose.Schema({
     name : {type: String, required: true},
     email : {type: String, required: true, unique: true, lowercase: true, trim: true}, //trim quita espacios si los hay
     password: {type: String, required: true, minlength: 8},
-    role: {Type: String, enum: ['user', 'admin'], default: 'user'}
+    role: {type: String, enum: ['user', 'admin'], default: 'user'}
 }, {
     // DECIMOS QUE AL PASAR AL FORMATO JSON NO NOS PASE NI EL __V NI EL _ID QUE LO PONE MONGODB POR DEFECTO Y EN ESTE CASO LAS CONTRASEÑAS DE LOS USUARIOS
     toJSON: {
